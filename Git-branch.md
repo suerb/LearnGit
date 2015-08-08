@@ -1,5 +1,3 @@
-this is conflict1 in master
-
 # Git 基本概念 - 分支管理
 
 ## 创建与合并分支
