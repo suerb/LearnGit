@@ -5,7 +5,9 @@
 > By 00 
 
 
+
 最常用：git command --help
+
 
 
 #### 1. 创建
@@ -17,6 +19,7 @@
 - 克隆远端服务器上的仓库： `git clone username@host:/path/to/repository`
 
 > 克隆操作会自动使用默认的 master 和 origin 名字。
+
 
 
 #### 2. 查询
@@ -31,11 +34,14 @@
 - Staging Area：`commit` 前把文件们收集到一起，以便打包 `commit`
 
 
+
 #### 3. add/添加
 
 - 添加到暂存区（让 Git 开始**跟踪**更改，也就是从 untracked 变为 tracked）：`git add <filename>` 或 `git add *`
 - 添加全部文件：git add -A， -A 表示包含删除的文件。
 - git reset: `git reset <filename> `从 Staging Area 移除文件。
+
+
 
 #### 4. commit/提交
 
@@ -46,13 +52,19 @@
 - 提交到远程仓库：`git push origin master`（可以把 master 换成你想要推送的任何分支）
 - 如果还没有克隆现有仓库，并想将仓库连接到某个远程服务器：`git remote add origin <server>`  
 
+
+
 #### 5. push/推送
 
 将文件推送到远程仓库中：`git push -u origin master`。远程仓库默认叫 “origin” 。`-u` 告诉 Git 记住参数，下次可以直接使用 push。
 
+
+
 #### 6. pull/拉取
 
 更新本地仓库至最新改动：`git pull origin master`
+
+
 
 #### 7. checkout/切换
 
@@ -63,9 +75,13 @@
 - 把文件从暂存区域复制到工作目录，用来丢弃本地修改：`git checkout --<files>`
 - 回滚到复制最后一次提交：`git checkout HEAD -- <files>`  
 
+
+
 #### 8. diff/比对
 
 	git diff
+
+
 
 #### 9. reset/撤销
 
@@ -74,9 +90,13 @@
 - 恢复之前版本：`git reset --hard`
 - 回滚到最近一次：`git checkout -- <target>`
 
+
+
 #### 10. merge/合并
 
 合并其他分支到当前分支：`git merge`
+
+
 
 #### 11. remove & clean
 
