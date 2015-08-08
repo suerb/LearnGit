@@ -1,4 +1,4 @@
-test for feature 1 aaaa
+this is conflict1 from branch conflict1
 
 # Git 基本概念 - 分支管理
 
