@@ -1,4 +1,4 @@
-# Git 基本概念 - 工作区与版本库
+# Git 基本概念 - 工作区、版本库、暂存区
 
 ## 工作区（Working Directory）
 
@@ -37,6 +37,8 @@ Git 的版本库里存了很多东西，其中最重要的就是称为 stage（�
 现在版本库变成了这样，暂存区就没有任何内容了：
 
 ![commit 到 master 版本库后，stage 没有任何内容](http://www.liaoxuefeng.com/files/attachments/0013849077337835a877df2d26742b88dd7f56a6ace3ecf000/0 "commit 提交")
+
+
 
 
 
